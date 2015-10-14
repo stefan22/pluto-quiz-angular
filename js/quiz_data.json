@@ -1,0 +1,140 @@
+[
+    {
+        "question": "In 2006 Pluto was reclassified as:",
+        "answers": [
+            {
+                "id": 0,
+                "text": "An asteroid"
+            },
+            {
+                "id": 1,
+                "text": "A small world"
+            },
+            {
+                "id": 2,
+                "text": "A comet"
+            },
+            {
+                "id": 3,
+                "text": "A dwarf planet"
+            }
+        ],
+        "correct": 3,
+        "feedback": "The International Astronomical Union reclassified Pluto as a dwarf planet in 2006."
+    },
+    {
+        "question": "Pluto was discovered by:",
+        "answers": [
+            {
+                "id": 0,
+                "text": "Percival Lowell"
+            },
+            {
+                "id": 1,
+                "text": "Walt Disney"
+            },
+            {
+                "id": 2,
+                "text": "Clyde Tombaugh"
+            },
+            {
+                "id": 3,
+                "text": "Gerard Kuiper"
+            }
+        ],
+        "correct": 2,
+        "feedback": "American astronomer Clyde Tombaugh discovered Pluto on February 18, 1930, at the Lowell Observatory in Flagstaff, Arizona."
+    },
+    {
+        "question": "Pluto is in a region of space known as:",
+        "answers": [
+            {
+                "id": 0,
+                "text": "Black hole"
+            },
+            {
+                "id": 1,
+                "text": "Kuiper Belt"
+            },
+            {
+                "id": 2,
+                "text": "Oort cloud"
+            },
+            {
+                "id": 3,
+                "text": "Van Allen belt"
+            }
+        ],
+        "correct": 1,
+        "feedback": "Pluto is beyond Neptune in a region of space called the Kuiper Belt."
+    },
+    {
+        "question": "Pluto was given its name by:",
+        "answers": [
+            {
+                "id": 0,
+                "text": "NASA"
+            },
+            {
+                "id": 1,
+                "text": "International Astronomical Union"
+            },
+            {
+                "id": 2,
+                "text": "American Astronomical Society"
+            },
+            {
+                "id": 3,
+                "text": "11-year-old Venetia Burney"
+            }
+        ],
+        "correct": 3,
+        "feedback": "Pluto's name was suggested by Venetia Burney, 11, of Oxford, England, in 1930."
+    },
+    {
+        "question": "Pluto's largest moon is:",
+        "answers": [
+            {
+                "id": 0,
+                "text": "Nix"
+            },
+            {
+                "id": 1,
+                "text": "Charon"
+            },
+            {
+                "id": 2,
+                "text": "Hydra"
+            },
+            {
+                "id": 3,
+                "text": "Styx"
+            }
+        ],
+        "correct": 1,
+        "feedback": "Pluto has five moons: Charon, Nix, Hydra, Kerberos and Styx. Charon is the largest, almost half the size of Pluto."
+    },
+    {
+        "question": "The NASA space probe exploring Pluto is named:",
+        "answers": [
+            {
+                "id": 0,
+                "text": "New Horizons"
+            },
+            {
+                "id": 1,
+                "text": "Cassini"
+            },
+            {
+                "id": 2,
+                "text": "Dawn"
+            },
+            {
+                "id": 3,
+                "text": "Apollo"
+            }
+        ],
+        "correct": 1,
+        "feedback": "NASA’s New Horizons spacecraft launched January 19, 2006, from Cape Canaveral, Florida, on the first mission to study Pluto and the Kuiper Belt."
+    }
+]
