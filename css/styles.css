@@ -4,7 +4,7 @@ body { background-color: #fff; padding: 20px; }
 
 #myQuiz {
    font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400;
-   width: 630px;
+   width: 620px;
    height: 650px;
    position: relative;
    overflow: hidden;
@@ -12,8 +12,31 @@ body { background-color: #fff; padding: 20px; }
    background: #000 url(../images/background.jpg) no-repeat 0px 0px;
    margin:0 auto;
    padding:10px;
+   border: 5px solid #0E0B05;
+   border-radius: 5px;
+   box-shadow: 1px 2px 3px #807D7D;
 
 }
+
+#myQuiz h1 {
+	font-weight: 100;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 0px;
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	text-shadow: 1px 1px 3px rgba(255,255,255,.3);
+}
+
+#myQuiz h1 span {
+	display: block;
+	font-weight: 900;
+	font-family: "Titillium Web", sans-serif;
+	font-size: 4em;
+    line-height: 85px
+}
+
 
 #myQuiz h2 {
 	font-size: 3em;
@@ -31,3 +54,29 @@ body { background-color: #fff; padding: 20px; }
 	margin: 0px 0px 14px 0px;
 }
 
+/* Intro */	
+
+#myQuiz .intro {
+	position: absolute;
+	top: 225px;
+	left: 20px;
+	width: 550px;
+}
+
+#myQuiz .intro p {
+	margin:0px 0px 40px 0px;
+}
+
+#myQuiz .btn {
+	display: inline-block;
+    cursor: pointer;
+    background-color: #F9950C;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #F8822B;
+    box-shadow: 1px 1px 3px #202020;
+    text-shadow: 1px 1px 1px #382C16;
+    font-size: 17px;
+}
