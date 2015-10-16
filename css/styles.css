@@ -34,7 +34,8 @@ body { background-color: #fff; padding: 20px; }
 	font-weight: 900;
 	font-family: "Titillium Web", sans-serif;
 	font-size: 4em;
-    line-height: 85px
+    line-height: 85px;
+    text-shadow: 1px 1px 2px #000;
 }
 
 
@@ -80,3 +81,10 @@ body { background-color: #fff; padding: 20px; }
     text-shadow: 1px 1px 1px #382C16;
     font-size: 17px;
 }
+
+#myQuiz .btn:hover {
+	background-color: #D66902;
+    border: 1px solid #3A2006;
+    box-shadow: 1px 1px 2px #231F19;
+}
+
