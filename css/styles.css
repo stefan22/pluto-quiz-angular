@@ -94,7 +94,7 @@ body { background-color: #fff; padding: 20px; }
 	width: 550px;
 	position: absolute;
 	top: 225px;
-	left: 20px;
+	left: 660px;
 }
 
 #myQuiz .question .txt {
@@ -181,3 +181,15 @@ body { background-color: #fff; padding: 20px; }
 }
 
 
+/* results */
+
+#myQuiz .results {
+	position: absolute;
+	top: 225px;
+	left: 20px;
+	width: 550px;
+}
+
+#myQuiz .results .share {
+	margin-top: 40px;
+}
