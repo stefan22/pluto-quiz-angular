@@ -55,11 +55,49 @@ body { background-color: #fff; padding: 20px; }
 	margin: 0px 0px 14px 0px;
 }
 
+/* progress bar */
+
+#myQuiz .progress {
+	width: 550px;
+	position: absolute;
+	top: 175px;
+    left: 23px;
+}
+
+#myQuiz .progress div {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 30px;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,.2);
+	transition: background-color 1s;
+}
+
+#myQuiz .progress div::after {
+	position: absolute;
+	content: '';
+	display: block;
+	top: -60px;
+	left: -15px;
+	width: 65px;
+	height: 40px;
+	background: url(../images/ring.svg) no-repeat 0px 0px;
+	transition:opacity 1s, top 1s;
+	opacity: 0;
+}
+
+
+
+
+
+
 /* Intro */	
 
 #myQuiz .intro {
 	position: absolute;
-	top: 225px;
+	top: 250px;
 	left: 660px;  
 	width: 550px;
 }
@@ -102,7 +140,7 @@ body { background-color: #fff; padding: 20px; }
 #myQuiz .question {
 	width: 550px;
 	position: absolute;
-	top: 225px;
+	top: 250px;
 	left: 660px;
 }
 
@@ -194,7 +232,7 @@ body { background-color: #fff; padding: 20px; }
 
 #myQuiz .results {
 	position: absolute;
-	top: 225px;
+	top: 250px;
 	left: 660px;
 	width: 550px;
 }
