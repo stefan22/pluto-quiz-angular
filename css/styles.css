@@ -88,3 +88,56 @@ body { background-color: #fff; padding: 20px; }
     box-shadow: 1px 1px 2px #231F19;
 }
 
+/* questions */
+
+#myQuiz .question {
+	width: 550px;
+	position: absolute;
+	top: 225px;
+	left: 20px;
+}
+
+#myQuiz .question .txt {
+	font-size: 1.6em;
+	margin: 0px 0px 20px 0px;
+}
+
+#myQuiz .question .ans {
+	display: inline-block;
+	font-size: 1.1em;
+	width: 225px;
+	border:2px solid rgba(238,189,102,.4);
+	border-radius: 6px;
+	padding:6px;
+	margin: 0px 15px 15px 0px;
+	position: relative;
+}
+
+#myQuiz .question .ans.selected {
+	border-color: #be4b16;
+}
+
+#myQuiz .question .ans.correct {
+	border-color: #459a2e;
+}
+
+#myQuiz .question .ans::after {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	background:no-repeat 0px 0px;
+	background-size: 20px 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+
+#myQuiz .question .ans.selected::after {
+	background-image: url(../images/icon_incorrect.svg);
+}
+
+#myQuiz .question .ans.correct::after {
+	background-image: url(../images/icon_correct.svg);
+}
