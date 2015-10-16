@@ -82,11 +82,20 @@ body { background-color: #fff; padding: 20px; }
     font-size: 17px;
 }
 
+#myQuiz .btn.twitter {
+	border: 1px solid #B8B1E0;
+}
+
 #myQuiz .btn:hover {
 	background-color: #D66902;
     border: 1px solid #3A2006;
     box-shadow: 1px 1px 2px #231F19;
 }
+
+#myQuiz .btn.twitter:hover {
+	border: 1px solid #3C76BE;
+}
+
 
 /* questions */
 
@@ -192,4 +201,25 @@ body { background-color: #fff; padding: 20px; }
 
 #myQuiz .results .share {
 	margin-top: 40px;
+}
+
+#myQuiz .results .share a.btn {
+	margin-right: 20px;
+	padding:9px 15px 8px 42px;
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+	background-size: 25px 25px;
+}
+
+
+#myQuiz .results .share a.btn.email {
+	background-color: #f0a121;
+	background-image: url(../images/icon_email.svg);
+	
+}
+
+#myQuiz .results .share a.btn.twitter {
+	background-color: #59adeb;
+	background-image:url(../images/icon_twitter.svg);
+	
 }
