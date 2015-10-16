@@ -155,7 +155,29 @@ body { background-color: #fff; padding: 20px; }
 }
 
 
+/* feedback */
 
+#myQuiz .feedback {
+	color: #efbe53;
+	margin-top: 50px;
+	transition:opacity 1.5s, margin-top 1.5s;
+	visibility: hidden;
+	opacity: 0;
+	
+}
 
+#myQuiz .feedback .btn {
+	margin-top: 5px;
+}
+
+#myQuiz .feedback strong {
+	color:#fff;
+}
+
+#myQuiz .answered .feedback {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 10px;
+}
 
 
