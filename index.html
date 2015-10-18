@@ -10,11 +10,9 @@
 
 		<div id="myQuiz" ng-controller="QuizController">
 			<h1>Test your Knowledge: <span>Pluto</span></h1>
-
-			<div class="progress">
-				<div class="answered correct"></div>
-				<div class="on"></div>
-				<div></div>
+				{{welcome}}
+			<div class="progress">{{totalQuestions}}
+				
 
 			</div><!-- progress -->
 			
@@ -57,10 +55,10 @@
 
 			</div><!-- results -->
 		
-		</div><!-- myQuiz-->
-
+		</div><!-- myQuiz-->	
 
 	<script type="text/javascript" src="js/angular.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>	
+
 	</body>
 </html>
