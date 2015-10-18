@@ -3,20 +3,16 @@
         "question": "In 2006 Pluto was reclassified as:",
         "answers": [
             {
-                "id": 0,
-                "text": "An asteroid"
+                "id": 0, "text": "An asteroid"
             },
             {
-                "id": 1,
-                "text": "A small world"
+                "id": 1, "text": "A small world"
             },
             {
-                "id": 2,
-                "text": "A comet"
+                "id": 2, "text": "A comet"
             },
             {
-                "id": 3,
-                "text": "A dwarf planet"
+                "id": 3, "text": "A dwarf planet"
             }
         ],
         "correct": 3,
