@@ -10,8 +10,9 @@
 
 		<div id="myQuiz" ng-controller="QuizController">
 			<h1>Test your Knowledge: <span>Pluto</span></h1>
-				{{welcome}}
-			<div class="progress">{{totalQuestions}}
+				
+			<div class="progress">
+				<div ng-repeat="myQuestion in myQuestions"></div>
 				
 
 			</div><!-- progress -->
