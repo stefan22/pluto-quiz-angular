@@ -12,7 +12,7 @@
 			<h1>Test your Knowledge: <span>Pluto</span></h1>
 				
 			<div class="progress">
-				<div ng-repeat="myQuestion in myQuestions"></div>
+				<div class="{{($index === activeQuestion) ? 'on' : 'off' }}" ng-repeat="myQuestion in myQuestions"></div>
 				
 
 			</div><!-- progress -->
