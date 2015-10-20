@@ -12,12 +12,12 @@
 			<h1>Test your Knowledge: <span>Pluto</span></h1>
 				
 			<div class="progress">
-				<div class="{{($index === activeQuestion) ? 'on' : 'off' }}" ng-repeat="myQuestion in myQuestions"></div>
+				<div class="{{ ($index == activeQuestion) ? 'on' : 'off' }}" ng-repeat="myQuestion in myQuestions"></div>
 				
-
+				
 			</div><!-- progress -->
 			
-			<div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active'}}">
+			<div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active' }}">
 				
 				<h2>Welcome</h2>
 				<p>Click begin to test your knowledge of Pluto</p>
@@ -26,14 +26,14 @@
 			</div><!-- intro -->
 			
 			
-			<div class="question">
+			<div class="question answered {{ ($index == activeQuestion) ? 'active' : 'inactive' }}" 
 
-				<p class="txt">This is a question</p>
+				ng-repeat="myQuestion in myQuestions">
 
-				<p class="ans">Answer 1</p>
-				<p class="ans">Answer 2</p>
-				<p class="ans">Answer 3</p>
-				<p class="ans">Answer 4</p>
+				<p class="txt">{{myQuestion.question}}</p>
+
+				<p class="ans" ng-repeat="Answer in myQuestions[$index].answers">{{ Answers.text }}</p>
+				
 
 				<div class="feedback">
 					<p>You are <strong>correct</strong></p>

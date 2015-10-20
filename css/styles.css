@@ -163,7 +163,7 @@ body { background-color: #fff; padding: 20px; }
 	width: 225px;
 	border:2px solid rgba(238,189,102,.4);
 	border-radius: 6px;
-	padding:6px;
+	padding:16px 6px;
 	margin: 0px 15px 15px 0px;
 	position: relative;
 }
