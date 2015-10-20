@@ -32,7 +32,9 @@
 
 				<p class="txt">{{myQuestion.question}}</p>
 
-				<p class="ans" ng-repeat="Answer in myQuestions[$index].answers">{{ Answers.text }}</p>
+				<p class="ans" 
+				ng-click="selectAnswer($parent.$index,$index)"
+				ng-repeat="Answer in myQuestions[$index].answers">{{ Answers.text }}</p>
 				
 
 				<div class="feedback">

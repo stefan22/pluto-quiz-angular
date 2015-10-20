@@ -13,8 +13,11 @@
 		$http.get('js/quiz_data.json').then(function(quiz){
 			$scope.myQuestions = quiz.data; //all data inside myQuestions
 			$scope.totalQuestions = $scope.myQuestions.length;
-
 		});
+
+		$scope.selectAnswer = function(qIndex,aIndex) {
+			alert(qIndex + ' and ' + aIndex);
+		}
 
 
 	}]);
